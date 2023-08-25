@@ -39,7 +39,6 @@
  body {
     background-color: #cbcbcb;
     font-family: 'Open Sans',Arial,sans-serif;
-    width: 100vw
  }
 
 .headerPrincipal-nav-link {
@@ -68,29 +67,30 @@ h2 {
 
 }
 
-.contenidoPrincipal-cursos-link:hover {
-    box-shadow: 4px 4px 4px #ccc;
+
+.contenidoPrincipal-cursos{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: left;
 }
+
 
 .contenidoPrincipal-cursos-link{
     content: '';
-    display: block;
-    width: 50px;
-    height: 50px;
-    margin: 10px auto;
     border: #ffffff;
     background-color: white;
-    justify-content: space-evenly;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 5%;
-    padding: 50px 50px 50px 50px;
-    margin: 1%;
-    transition: .5s;
-    flex-flow: row wrap;
-    align-content:center;
-    align-items:flex-start;
+    box-shadow: 3px 3px 3px grey;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    align-items: center;
+    width: 20vw;
+    font-weight: bold;
+}
+
+.contenidoPrincipal-cursos-link:hover {
+    box-shadow: 4px 4px 4px #ccc;
 }
 
 
@@ -99,7 +99,7 @@ h2 {
     display: block;
     width: 50px;
     height: 50px;
-    border: #ffffff;
+    margin: 10px auto;
     
    
 }
