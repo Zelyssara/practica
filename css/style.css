@@ -152,3 +152,80 @@ h2 {
 strong{
     font-weight: bold;
 }
+
+.mapacursos{
+    padding: 2em 0em;
+    margin: 1.5em 0em;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(12, 71, 138, 0.849);
+    color: white;
+    
+}
+
+.mapabackend{
+    text-align: left;
+    padding: 6em;
+    height: 14em;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mapabackenda{
+    max-width: 42%;
+    font-size: 1em;
+    padding: 0em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.mapabackendb{
+    max-width: 42%;
+    font-size: 1em;
+    padding: 0em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.mapabackendc{
+    max-width: 20%;
+    font-size: 1em;
+    padding: 0em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mapabackendd{
+    max-width: 21%;
+    font-size: 1em;
+    padding: 0em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3{
+    color: white;
+    font-size: 2em;
+}
+
+h4{
+    color: green;
+}
+
+h5{
+    color: rgb(0, 153, 255)
+}
+
+h6{
+    color: purple;
+}
+
+h7{
+    color: orange;
+}
