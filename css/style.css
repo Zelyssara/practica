@@ -106,11 +106,11 @@ h2 {
 
 
 .contenidoPrincipal-cursos-link:nth-child(even) a:before{
-    background: url(/img/background1.svg) no-repeat;
+    background: url(../img/background1.svg) no-repeat;
 }
 
 .contenidoPrincipal-cursos-link:nth-child(odd) a:before{
-    background: url(/img/background2.svg) no-repeat;
+    background: url(../img/background2.svg) no-repeat;
 
 }
     
